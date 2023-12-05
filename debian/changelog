@@ -1,3 +1,12 @@
+tar (1.34+dfsg-1ubuntu0.1.22.04.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: stack overflow via crafted xattr (LP: #2029464)
+    - debian/patches/CVE-2023-39804.patch: allocate xattr keys and values
+      on the heap rather than the stack in src/xheader.c
+    - CVE-2023-39804
+
+ -- Alex Murray <alex.murray@canonical.com>  Tue, 05 Dec 2023 15:45:51 +1030
+
 tar (1.34+dfsg-1ubuntu0.1.22.04.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: one-byte out of bounds
