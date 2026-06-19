@@ -5,3 +5,4 @@ oldgnu-unknown-mode-bits.patch
 proper_it_translation.patch
 CVE-2022-48303.patch
 CVE-2023-39804.patch
+CVE-2026-5704.patch
