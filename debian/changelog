@@ -1,3 +1,12 @@
+tar (1.34+dfsg-1ubuntu0.1.22.04.4) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: File overwrite via directory traversal
+    - debian/patches/CVE-2025-45582-*.patch: Backport openat2 support in
+      order to jailify the extraction directory.
+    - CVE-2025-45582
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Sat, 27 Jun 2026 17:53:20 -0400
+
 tar (1.34+dfsg-1ubuntu0.1.22.04.3) jammy-security; urgency=medium
 
   * SECURITY UPDATE: file injection via crafted archive
